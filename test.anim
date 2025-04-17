@@ -1,0 +1,9 @@
+x1 = linear<59>(0, windowWidth*0.5)  constant<1>(windowWidth*0.5);
+y1 = linear<59>(windowHeight, -windowHeight) constant<1>(-windowHeight);
+
+x2 = linear<59>(windowWidth*0.5, windowWidth)  constant<1>(windowWidth);
+y2 = linear<59>(-windowHeight, windowHeight) constant<1>(windowHeight);
+
+x3 = linear<59>(x1, x2) constant<1>(x2);
+y3 = linear<59>(y1, y2) constant<1>(y2);
+"tiger.png" translate(x3, y3);

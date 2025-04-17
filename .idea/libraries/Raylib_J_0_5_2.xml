@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Raylib-J-0.5.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ext/Raylib-J-0.5.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
