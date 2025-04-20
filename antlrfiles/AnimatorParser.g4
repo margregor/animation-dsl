@@ -1,5 +1,3 @@
-//adapted from EBNF available at https://www.w3.org/TR/SVGTiny12/coords.html#TransformList
-
 parser grammar AnimatorParser;
 options { tokenVocab=AnimatorLexer; }
 
