@@ -66,7 +66,6 @@ public class Main {
 
         // start parsing at the transformList rule
         ParseTree tree = parser.scene();
-        System.out.println(tree.toStringTree(parser));
 
         int width = cmd.hasOption("width") ? Integer.parseInt(cmd.getOptionValue("width")) : 800;
         int height = cmd.hasOption("height") ? Integer.parseInt(cmd.getOptionValue("height")) : 600;
