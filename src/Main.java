@@ -100,12 +100,12 @@ public class Main {
             if (finished)
             {
                 int textWidth = rlj.text.MeasureText("Fin", 50);
-                rlj.text.DrawText("Fin", 400-textWidth/2 - 2, 300-25 - 2, 50, Color.BLACK);
-                rlj.text.DrawText("Fin", 400-textWidth/2 + 2, 300-25 - 2, 50, Color.BLACK);
-                rlj.text.DrawText("Fin", 400-textWidth/2 - 2, 300-25 + 2, 50, Color.BLACK);
-                rlj.text.DrawText("Fin", 400-textWidth/2 + 2, 300-25 + 2, 50, Color.BLACK);
+                rlj.text.DrawText("Fin", width/2-textWidth/2 - 2, height/2-25 - 2, 50, Color.BLACK);
+                rlj.text.DrawText("Fin", width/2-textWidth/2 + 2, height/2-25 - 2, 50, Color.BLACK);
+                rlj.text.DrawText("Fin", width/2-textWidth/2 - 2, height/2-25 + 2, 50, Color.BLACK);
+                rlj.text.DrawText("Fin", width/2-textWidth/2 + 2, height/2-25 + 2, 50, Color.BLACK);
 
-                rlj.text.DrawText("Fin", 400-textWidth/2, 300-25, 50, Color.WHITE);
+                rlj.text.DrawText("Fin", width/2-textWidth/2, height/2-25, 50, Color.WHITE);
             }
             rlj.core.EndDrawing();
         }
